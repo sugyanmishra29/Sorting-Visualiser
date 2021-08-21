@@ -1,5 +1,5 @@
 # Sorting Visualizer
 
 This project uses Javascript to visualise sorting algorithms.
-<br>
+<h2></h2>
 <img src="screenshot.png">
