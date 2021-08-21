@@ -88,10 +88,3 @@ function heap_sort()
     }
     div_update(divs[i],div_sizes[i],"green");//Color update
 }
-
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/

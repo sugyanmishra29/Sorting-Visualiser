@@ -71,10 +71,3 @@ function quick_sort (start, end )
         quick_sort (piv_pos +1, end) ;//sorts the right side of pivot.
     }
  }
-
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/

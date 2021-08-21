@@ -56,10 +56,3 @@ function enable_buttons()
         }
     },c_delay+=delay_time);
 }
-
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
