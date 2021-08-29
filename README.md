@@ -2,4 +2,4 @@
 
 This project uses Javascript to visualise sorting algorithms.
 <br></br>
-<img src="images/screenshot.png">
+<img src="images/screenshot.jpg">
