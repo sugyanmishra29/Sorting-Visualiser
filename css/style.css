@@ -7,10 +7,11 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: large;
-  font-weight: bold;
-  text-transform: uppercase;
+  /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  /* text-transform: uppercase; */
 }
 
 nav {
@@ -52,6 +53,7 @@ nav .array-inputs #a_generate {
 }
 
 nav .array-inputs #a_generate:hover {
+  background-color: blue;
   cursor: pointer;
 }
 
@@ -86,7 +88,7 @@ nav .header_right .algos button {
   color: white;
   outline: none;
   padding: 5% 0%;
-  font-size: x-large;
+  font-size: 18px;
 }
 
 nav .header_right .algos button:hover {
@@ -144,6 +146,16 @@ section #Info_Cont2 {
 
 .hide {
   display: none;
+}
+
+footer #gitlink{
+  float: left;
+  margin-left: 20px;
+}
+
+footer #developer {
+  float: right;
+  margin-right: 20px;
 }
 
 /*

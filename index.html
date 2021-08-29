@@ -12,7 +12,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorting Visualizer</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -25,12 +27,12 @@
                 <input id="a_size" type="range" min=20 max=150 step=1 value=80>
                 <p>Speed of the algorithm:</p>
                 <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
-                <button id="a_generate">Generate New Array!</button>
+                <button id="a_generate">Click here to generate a new array</button>
             </div>
 
             <div class="header_right">
-                <p class="nav-heading">Sorting visualizer</p>
-
+                <p class="nav-heading">Sorting Visualizer</p>
+                
                 <div class="algos">
                     <button >Bubble</button>
                     <button >Selection</button>
@@ -47,7 +49,7 @@
     <section>
 
         <div id="Info_Cont1">
-            <p>This is First Container</p>
+            <!-- <p>This is First Container</p> -->
         </div>
 
         <div id="array_container">
@@ -55,13 +57,14 @@
         </div>
 
         <div id="Info_Cont2">
-            <p>This is Second Container</p>
+            <!-- <p>This is Second Container</p> -->
         </div>
 
     </section>
 
     <footer>
-
+        <a id="gitlink" href="https://github.com/sugyanmishra29/Sorting-Visualiser">Github Project Link</a>
+        <p id="developer">Developed by <a href="https://github.com/sugyanmishra29">Sugyan Mishra</a></p>
     </footer>
 
     <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
