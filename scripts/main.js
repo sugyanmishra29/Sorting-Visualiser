@@ -21,12 +21,24 @@ var div_sizes=[];
 var divs=[];
 var margin_size;
 var cont=document.getElementById("array_container");
+var show_arr_size = document.getElementById("arr_size");
+var show_sort_speed = document.getElementById("sort_speed");
 cont.style="flex-direction:row";
 
 //Array generation and updation.
 
 inp_gen.addEventListener("click",generate_array);
 inp_as.addEventListener("input",update_array_size);
+inp_as.addEventListener("input", show_array_size);
+inp_aspeed.addEventListener("input", show_sorting_speed);
+
+function show_array_size(){
+    show_arr_size.innerHTML = "(" + array_size + ")";
+}
+
+function show_sorting_speed(){
+    show_sort_speed.innerHTML = "(" + inp_aspeed.value + ")";
+}
 
 function generate_array()
 {
@@ -37,8 +49,9 @@ function generate_array()
         div_sizes[i]=Math.floor(Math.random() * 0.5*(inp_as.max - inp_as.min) ) + 10;
         divs[i]=document.createElement("div");
         cont.appendChild(divs[i]);
-        margin_size=0.1;
+        margin_size=0.15; // gaps between rectangular bars
         divs[i].style=" margin:0% " + margin_size + "%; background-color:blue; width:" + (100/array_size-(2*margin_size)) + "%; height:" + (div_sizes[i]) + "%;";
+        // width of each rectangular bar
     }
 }
 
