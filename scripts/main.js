@@ -34,10 +34,12 @@ inp_aspeed.addEventListener("input", show_sorting_speed);
 
 function show_array_size(){
     show_arr_size.innerHTML = "(" + array_size + ")";
+    console.log(array_size)
 }
 
 function show_sorting_speed(){
     show_sort_speed.innerHTML = "(" + inp_aspeed.value + ")";
+    console.log(inp_aspeed.value);
 }
 
 function generate_array()
